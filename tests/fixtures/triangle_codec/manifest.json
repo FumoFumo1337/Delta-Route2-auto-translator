@@ -1,0 +1,26 @@
+{
+  "format": "delta-cgf",
+  "entries": [
+    {
+      "name": "DUMMY",
+      "file": "DUMMY.bmp",
+      "mode": "stored",
+      "flagged": false,
+      "type": "image"
+    },
+    {
+      "name": "SDUMMY",
+      "file": "SDUMMY.bmp",
+      "mode": "lzss",
+      "flagged": false,
+      "type": "image"
+    },
+    {
+      "name": "MASK",
+      "file": "MASK.raw",
+      "mode": "raw",
+      "flagged": true,
+      "type": "image"
+    }
+  ]
+}

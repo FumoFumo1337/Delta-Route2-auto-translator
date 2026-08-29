@@ -1,0 +1,238 @@
+{
+  "_comment": "Language-wide cleanup for technical artifacts and Japanese sound effects commonly produced by machine translation. Keep game terminology, names, plot context, and obscene wording out of this file; neutral onomatopoeic equivalents are allowed regardless of scene context.",
+  "_language": "EN",
+  "source_rules": [
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ガ(?:チャ(?:リ|ッ)?|チャン)[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Gacha|Gachan|Gachari|Clank|Clang)(?![A-Za-z])",
+          "replacement": "Click"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*チリリン[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Chiririn|Tiririn)(?![A-Za-z])",
+          "replacement": "Ding-ding"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*コンコン[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])Kon(?:-?kon)?(?![A-Za-z])",
+          "replacement": "Knock-knock"
+        }
+      ]
+    },
+    {
+      "source_pattern": "(?:ちゅ|チュ)",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:ch-)?chu(?:-?(?:pa|pi|pu|ru|p|k)|u+)?(?![A-Za-z])",
+          "replacement": "slurp"
+        },
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:ch-)?slurp(?:-(?:pa|pi|pu|ru|p|k))+(?![A-Za-z])",
+          "replacement": "slurp"
+        },
+        {
+          "pattern": "(?i)(?<![A-Za-z])ch(?![A-Za-z])",
+          "replacement": "slurp"
+        }
+      ]
+    },
+    {
+      "source_pattern": "(?:じゅ|ジュ)",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])ju(?:-?(?:pa|pi|pu|ru|p|b)|u+)?(?![A-Za-z])",
+          "replacement": "slurp"
+        },
+        {
+          "pattern": "(?i)(?<![A-Za-z])slurp(?:-(?:pa|pi|pu|ru|p|b))+(?![A-Za-z])",
+          "replacement": "slurp"
+        },
+        {
+          "pattern": "(?i)(?<![A-Za-z])s+slurp(?![A-Za-z])",
+          "replacement": "slurp"
+        }
+      ]
+    },
+    {
+      "source_pattern": "(?:ぴちゃ|ピチャ|ぺちゃ|ペチャ|ぴちゅ|ピチュ)",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Picha|Pichu|Pecha)(?![A-Za-z])",
+          "replacement": "smack"
+        }
+      ]
+    },
+    {
+      "source_pattern": "(?:くちゅ|クチュ|ぐちゅ|グチュ)",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Kuchu|Guchu|Kuchuu|Guchuu)(?![A-Za-z])",
+          "replacement": "squelch"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*バターンッ*[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Thud|Bam|Ba-?tan)(?![A-Za-z])",
+          "replacement": "Slam"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*バタン[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Thud|Bam|Batan)(?![A-Za-z])",
+          "replacement": "Slam"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*グイッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Whoosh|Gui)(?![A-Za-z])",
+          "replacement": "Yank"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ドテッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Thud|Dote)(?![A-Za-z])",
+          "replacement": "Thump"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ズブリッ*[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Thwack|Zuburi|Boom)(?![A-Za-z])",
+          "replacement": "Squelch"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ドク(?:ッ|ン)*[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Boom|Doku|Dokun)(?![A-Za-z])",
+          "replacement": "Thump"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ビュッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ドピュッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])Byu(?![A-Za-z])",
+          "replacement": "Spurt"
+        },
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Dpyu|Dopyu)(?![A-Za-z])",
+          "replacement": "Splatter"
+        }
+      ]
+    },
+    {
+      "source_pattern": "パチ",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])Pa(?:-Pa){2,4}!?(?![A-Za-z])",
+          "replacement": "Clap-clap-clap-clap!"
+        }
+      ]
+    },
+    {
+      "source_pattern": "パシャ",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])Pasha(?![A-Za-z])",
+          "replacement": "click"
+        },
+        {
+          "pattern": "^([ \\t\"“‘'(]*)click",
+          "replacement": "\\1Click"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*パシャ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*パシャパシャ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*パシャ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)click-click-click",
+          "replacement": "click-click"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ターンッ*[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])Turn(?![A-Za-z])",
+          "replacement": "Bang"
+        }
+      ]
+    },
+    {
+      "source_pattern": "^[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ドサッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*$",
+      "regex_replacements": [
+        {
+          "pattern": "(?i)(?<![A-Za-z])(?:Dosa|Bam)(?![A-Za-z])",
+          "replacement": "Thud"
+        }
+      ]
+    },
+    {
+      "source_pattern": "ジョロ",
+      "regex_replacements": [
+        {
+          "pattern": "(?is)(?<![A-Za-z])(?:Gurgle|Joro)…\\s*(?:gurgle|joro),\\s*(?:gurgle+|joro+)[!！]*",
+          "replacement": "Gurgle… gurgle, gurgle!!"
+        }
+      ]
+    },
+    {
+      "source_pattern": "(?<![\\u3040-\\u30ff])ッ[\\s。、，．・…‥⋯！？!?「」『』（）()［］\\[\\]【】〈〉《》〔〕―ー‐‑–—〜～~:;；：,.，、/／]*ッ(?![\\u3040-\\u30ff])",
+      "regex_replacements": [
+        {
+          "pattern": "(?<![A-Za-z\\u3040-\\u30ff])ッ(?![A-Za-z\\u3040-\\u30ff])",
+          "replacement": "ngh"
+        }
+      ]
+    }
+  ],
+  "regex_replacements": [
+    {
+      "pattern": "[ \\t]+([,.!?])",
+      "replacement": "\\1"
+    },
+    {
+      "pattern": "([A-Za-z])\\1{7,}",
+      "replacement": "\\1\\1\\1\\1\\1\\1",
+      "ignore_case": true
+    },
+    {
+      "pattern": "(?i)\\b([a-z]{1,15})(?:-\\1){4,}\\b",
+      "replacement": "\\1-\\1-\\1"
+    },
+    {
+      "pattern": "\\b([A-Za-zА-Яа-яЁё]{1,15})(?:…[ \\t]*\\1){3,}\\b",
+      "replacement": "\\1… \\1… \\1"
+    }
+  ]
+}

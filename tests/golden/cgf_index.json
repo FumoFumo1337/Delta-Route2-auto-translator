@@ -1,0 +1,1399 @@
+{
+  "description": "GARbro's view of the archive index: names, sizes and types.",
+  "archive": "CG/ST.jp.CGF",
+  "archive_sha256": "fc569ff07c58a9dc5ff62d8acf968487e30f2075f2431e027894f644b1a30af1",
+  "entries": [
+    {
+      "name": "11SG21Z",
+      "offset": 7428,
+      "size": 12423,
+      "type": "image"
+    },
+    {
+      "name": "SG21B",
+      "offset": 19851,
+      "size": 333247,
+      "type": "image"
+    },
+    {
+      "name": "11SMA0Z_L",
+      "offset": 353098,
+      "size": 12360,
+      "type": "image"
+    },
+    {
+      "name": "SMA0B_L",
+      "offset": 365458,
+      "size": 290190,
+      "type": "image"
+    },
+    {
+      "name": "11SMA1Z_L",
+      "offset": 655648,
+      "size": 12777,
+      "type": "image"
+    },
+    {
+      "name": "SMA1A_L",
+      "offset": 668425,
+      "size": 342351,
+      "type": "image"
+    },
+    {
+      "name": "SMA1B_L",
+      "offset": 1010776,
+      "size": 342366,
+      "type": "image"
+    },
+    {
+      "name": "11SMA1Z_R",
+      "offset": 1353142,
+      "size": 12777,
+      "type": "image"
+    },
+    {
+      "name": "SMA1A_R",
+      "offset": 1365919,
+      "size": 343045,
+      "type": "image"
+    },
+    {
+      "name": "SMA1B_R",
+      "offset": 1708964,
+      "size": 343062,
+      "type": "image"
+    },
+    {
+      "name": "11SMA1Z_RU",
+      "offset": 2052026,
+      "size": 14437,
+      "type": "image"
+    },
+    {
+      "name": "SMA1D_RU",
+      "offset": 2066463,
+      "size": 441262,
+      "type": "image"
+    },
+    {
+      "name": "11SMA2Z_L",
+      "offset": 2507725,
+      "size": 12387,
+      "type": "image"
+    },
+    {
+      "name": "SMA2A_L",
+      "offset": 2520112,
+      "size": 340634,
+      "type": "image"
+    },
+    {
+      "name": "11SMA2Z_LU",
+      "offset": 2860746,
+      "size": 13512,
+      "type": "image"
+    },
+    {
+      "name": "SMA2A_LU",
+      "offset": 2874258,
+      "size": 427841,
+      "type": "image"
+    },
+    {
+      "name": "11SMA2Z_R",
+      "offset": 3302099,
+      "size": 12387,
+      "type": "image"
+    },
+    {
+      "name": "SMA2A_R",
+      "offset": 3314486,
+      "size": 341078,
+      "type": "image"
+    },
+    {
+      "name": "11SMB1Z_LU",
+      "offset": 3655564,
+      "size": 14371,
+      "type": "image"
+    },
+    {
+      "name": "SMB1C_LU",
+      "offset": 3669935,
+      "size": 463477,
+      "type": "image"
+    },
+    {
+      "name": "11SMC0Z_LU",
+      "offset": 4133412,
+      "size": 16150,
+      "type": "image"
+    },
+    {
+      "name": "SMC0B_LU",
+      "offset": 4149562,
+      "size": 441485,
+      "type": "image"
+    },
+    {
+      "name": "11SMC1Z_L",
+      "offset": 4591047,
+      "size": 12486,
+      "type": "image"
+    },
+    {
+      "name": "SMC1A_L",
+      "offset": 4603533,
+      "size": 349130,
+      "type": "image"
+    },
+    {
+      "name": "SMC1B_L",
+      "offset": 4952663,
+      "size": 349092,
+      "type": "image"
+    },
+    {
+      "name": "SMD1B_L",
+      "offset": 5301755,
+      "size": 346547,
+      "type": "image"
+    },
+    {
+      "name": "SMD1C_L",
+      "offset": 5648302,
+      "size": 346572,
+      "type": "image"
+    },
+    {
+      "name": "11SMC1Z_LU",
+      "offset": 5994874,
+      "size": 13967,
+      "type": "image"
+    },
+    {
+      "name": "SMC1A_LU",
+      "offset": 6008841,
+      "size": 460530,
+      "type": "image"
+    },
+    {
+      "name": "SMC1B_LU",
+      "offset": 6469371,
+      "size": 460590,
+      "type": "image"
+    },
+    {
+      "name": "SMC1D_LU",
+      "offset": 6929961,
+      "size": 460596,
+      "type": "image"
+    },
+    {
+      "name": "SMD1C_LU",
+      "offset": 7390557,
+      "size": 475446,
+      "type": "image"
+    },
+    {
+      "name": "11SMC1Z_R",
+      "offset": 7866003,
+      "size": 12485,
+      "type": "image"
+    },
+    {
+      "name": "SMC1A_R",
+      "offset": 7878488,
+      "size": 349279,
+      "type": "image"
+    },
+    {
+      "name": "SMC1B_R",
+      "offset": 8227767,
+      "size": 349248,
+      "type": "image"
+    },
+    {
+      "name": "SMC1D_R",
+      "offset": 8577015,
+      "size": 349258,
+      "type": "image"
+    },
+    {
+      "name": "11SMD1Z_RU",
+      "offset": 8926273,
+      "size": 13418,
+      "type": "image"
+    },
+    {
+      "name": "SMD1B_RU",
+      "offset": 8939691,
+      "size": 475953,
+      "type": "image"
+    },
+    {
+      "name": "11SRA0Z_L",
+      "offset": 9415644,
+      "size": 21645,
+      "type": "image"
+    },
+    {
+      "name": "SRA0F_L",
+      "offset": 9437289,
+      "size": 280283,
+      "type": "image"
+    },
+    {
+      "name": "SRA0H_L",
+      "offset": 9717572,
+      "size": 279966,
+      "type": "image"
+    },
+    {
+      "name": "11SRA0Z_LU",
+      "offset": 9997538,
+      "size": 21373,
+      "type": "image"
+    },
+    {
+      "name": "SRA0F_LU",
+      "offset": 10018911,
+      "size": 458036,
+      "type": "image"
+    },
+    {
+      "name": "SRA0G_LU",
+      "offset": 10476947,
+      "size": 458170,
+      "type": "image"
+    },
+    {
+      "name": "SRA0H_LU",
+      "offset": 10935117,
+      "size": 456490,
+      "type": "image"
+    },
+    {
+      "name": "11SRA0Z_R",
+      "offset": 11391607,
+      "size": 21643,
+      "type": "image"
+    },
+    {
+      "name": "SRA0A_R",
+      "offset": 11413250,
+      "size": 280136,
+      "type": "image"
+    },
+    {
+      "name": "SRA0B_R",
+      "offset": 11693386,
+      "size": 280116,
+      "type": "image"
+    },
+    {
+      "name": "SRA0C_R",
+      "offset": 11973502,
+      "size": 280061,
+      "type": "image"
+    },
+    {
+      "name": "SRA0F_R",
+      "offset": 12253563,
+      "size": 280122,
+      "type": "image"
+    },
+    {
+      "name": "11SRA0Z_RU",
+      "offset": 12533685,
+      "size": 21378,
+      "type": "image"
+    },
+    {
+      "name": "SRA0B_RU",
+      "offset": 12555063,
+      "size": 455771,
+      "type": "image"
+    },
+    {
+      "name": "SRA0D_RU",
+      "offset": 13010834,
+      "size": 454010,
+      "type": "image"
+    },
+    {
+      "name": "SRA0F_RU",
+      "offset": 13464844,
+      "size": 457798,
+      "type": "image"
+    },
+    {
+      "name": "SRA0H_RU",
+      "offset": 13922642,
+      "size": 456117,
+      "type": "image"
+    },
+    {
+      "name": "11SRA1Z_L",
+      "offset": 14378759,
+      "size": 21694,
+      "type": "image"
+    },
+    {
+      "name": "SRA1A_L",
+      "offset": 14400453,
+      "size": 312799,
+      "type": "image"
+    },
+    {
+      "name": "SRA1B_L",
+      "offset": 14713252,
+      "size": 312799,
+      "type": "image"
+    },
+    {
+      "name": "SRA1D_L",
+      "offset": 15026051,
+      "size": 312452,
+      "type": "image"
+    },
+    {
+      "name": "SRA1F_L",
+      "offset": 15338503,
+      "size": 312798,
+      "type": "image"
+    },
+    {
+      "name": "11SRA1Z_LU",
+      "offset": 15651301,
+      "size": 22797,
+      "type": "image"
+    },
+    {
+      "name": "SRA1B_LU",
+      "offset": 15674098,
+      "size": 492310,
+      "type": "image"
+    },
+    {
+      "name": "SRA1D_LU",
+      "offset": 16166408,
+      "size": 491624,
+      "type": "image"
+    },
+    {
+      "name": "SRA1F_LU",
+      "offset": 16658032,
+      "size": 492386,
+      "type": "image"
+    },
+    {
+      "name": "SRA1H_LU",
+      "offset": 17150418,
+      "size": 491680,
+      "type": "image"
+    },
+    {
+      "name": "11SRA1Z_R",
+      "offset": 17642098,
+      "size": 21685,
+      "type": "image"
+    },
+    {
+      "name": "SRA1A_R",
+      "offset": 17663783,
+      "size": 313277,
+      "type": "image"
+    },
+    {
+      "name": "SRA1B_R",
+      "offset": 17977060,
+      "size": 313257,
+      "type": "image"
+    },
+    {
+      "name": "SRA1D_R",
+      "offset": 18290317,
+      "size": 312907,
+      "type": "image"
+    },
+    {
+      "name": "SRA1E_R",
+      "offset": 18603224,
+      "size": 313296,
+      "type": "image"
+    },
+    {
+      "name": "SRA1F_R",
+      "offset": 18916520,
+      "size": 313263,
+      "type": "image"
+    },
+    {
+      "name": "SRA1H_R",
+      "offset": 19229783,
+      "size": 312933,
+      "type": "image"
+    },
+    {
+      "name": "11SRA1Z_RU",
+      "offset": 19542716,
+      "size": 22802,
+      "type": "image"
+    },
+    {
+      "name": "SRA1B_RU",
+      "offset": 19565518,
+      "size": 492921,
+      "type": "image"
+    },
+    {
+      "name": "SRA1D_RU",
+      "offset": 20058439,
+      "size": 492206,
+      "type": "image"
+    },
+    {
+      "name": "SRA1H_RU",
+      "offset": 20550645,
+      "size": 492268,
+      "type": "image"
+    },
+    {
+      "name": "11SRA2Z_L",
+      "offset": 21042913,
+      "size": 20953,
+      "type": "image"
+    },
+    {
+      "name": "SRA2A_L",
+      "offset": 21063866,
+      "size": 327280,
+      "type": "image"
+    },
+    {
+      "name": "11SRA2Z_LU",
+      "offset": 21391146,
+      "size": 21352,
+      "type": "image"
+    },
+    {
+      "name": "SRA2D_LU",
+      "offset": 21412498,
+      "size": 515974,
+      "type": "image"
+    },
+    {
+      "name": "11SRA2Z_R",
+      "offset": 21928472,
+      "size": 20948,
+      "type": "image"
+    },
+    {
+      "name": "SRA2A_R",
+      "offset": 21949420,
+      "size": 326776,
+      "type": "image"
+    },
+    {
+      "name": "11SRB1Z_L",
+      "offset": 22276196,
+      "size": 21804,
+      "type": "image"
+    },
+    {
+      "name": "SRB1B_L",
+      "offset": 22298000,
+      "size": 328431,
+      "type": "image"
+    },
+    {
+      "name": "SRB2C_L",
+      "offset": 22626431,
+      "size": 338045,
+      "type": "image"
+    },
+    {
+      "name": "11SRB1Z_LU",
+      "offset": 22964476,
+      "size": 23046,
+      "type": "image"
+    },
+    {
+      "name": "SRB1F_LU",
+      "offset": 22987522,
+      "size": 527295,
+      "type": "image"
+    },
+    {
+      "name": "SRB1H_LU",
+      "offset": 23514817,
+      "size": 526584,
+      "type": "image"
+    },
+    {
+      "name": "11SRB1Z_R",
+      "offset": 24041401,
+      "size": 21795,
+      "type": "image"
+    },
+    {
+      "name": "SRB1E_R",
+      "offset": 24063196,
+      "size": 329532,
+      "type": "image"
+    },
+    {
+      "name": "SRB1F_R",
+      "offset": 24392728,
+      "size": 329506,
+      "type": "image"
+    },
+    {
+      "name": "SRB1H_R",
+      "offset": 24722234,
+      "size": 329155,
+      "type": "image"
+    },
+    {
+      "name": "11SRB1Z_RU",
+      "offset": 25051389,
+      "size": 23051,
+      "type": "image"
+    },
+    {
+      "name": "SRB1D_RU",
+      "offset": 25074440,
+      "size": 528086,
+      "type": "image"
+    },
+    {
+      "name": "SRB1F_RU",
+      "offset": 25602526,
+      "size": 529187,
+      "type": "image"
+    },
+    {
+      "name": "SRB1H_RU",
+      "offset": 26131713,
+      "size": 528461,
+      "type": "image"
+    },
+    {
+      "name": "11SRC0Z_L",
+      "offset": 26660174,
+      "size": 19695,
+      "type": "image"
+    },
+    {
+      "name": "SRC0D_L",
+      "offset": 26679869,
+      "size": 269154,
+      "type": "image"
+    },
+    {
+      "name": "SRC0G_L",
+      "offset": 26949023,
+      "size": 269163,
+      "type": "image"
+    },
+    {
+      "name": "SRC0H_L",
+      "offset": 27218186,
+      "size": 269147,
+      "type": "image"
+    },
+    {
+      "name": "11SRC0Z_LU",
+      "offset": 27487333,
+      "size": 22512,
+      "type": "image"
+    },
+    {
+      "name": "SRC0F_LU",
+      "offset": 27509845,
+      "size": 469809,
+      "type": "image"
+    },
+    {
+      "name": "SRC0G_LU",
+      "offset": 27979654,
+      "size": 469761,
+      "type": "image"
+    },
+    {
+      "name": "SRC0H_LU",
+      "offset": 28449415,
+      "size": 469419,
+      "type": "image"
+    },
+    {
+      "name": "11SRC0Z_R",
+      "offset": 28918834,
+      "size": 19695,
+      "type": "image"
+    },
+    {
+      "name": "SRC0G_R",
+      "offset": 28938529,
+      "size": 269065,
+      "type": "image"
+    },
+    {
+      "name": "SRC0H_R",
+      "offset": 29207594,
+      "size": 269074,
+      "type": "image"
+    },
+    {
+      "name": "11SRC0Z_RU",
+      "offset": 29476668,
+      "size": 22516,
+      "type": "image"
+    },
+    {
+      "name": "SRC0B_RU",
+      "offset": 29499184,
+      "size": 467434,
+      "type": "image"
+    },
+    {
+      "name": "SRC0D_RU",
+      "offset": 29966618,
+      "size": 467038,
+      "type": "image"
+    },
+    {
+      "name": "SRC0F_RU",
+      "offset": 30433656,
+      "size": 469450,
+      "type": "image"
+    },
+    {
+      "name": "SRC0H_RU",
+      "offset": 30903106,
+      "size": 469052,
+      "type": "image"
+    },
+    {
+      "name": "11SRC1Z_L",
+      "offset": 31372158,
+      "size": 19615,
+      "type": "image"
+    },
+    {
+      "name": "SRC1B_L",
+      "offset": 31391773,
+      "size": 315370,
+      "type": "image"
+    },
+    {
+      "name": "SRC1C_L",
+      "offset": 31707143,
+      "size": 315392,
+      "type": "image"
+    },
+    {
+      "name": "SRC1D_L",
+      "offset": 32022535,
+      "size": 315368,
+      "type": "image"
+    },
+    {
+      "name": "SRC1F_L",
+      "offset": 32337903,
+      "size": 315360,
+      "type": "image"
+    },
+    {
+      "name": "SRC1G_L",
+      "offset": 32653263,
+      "size": 315383,
+      "type": "image"
+    },
+    {
+      "name": "SRC1H_L",
+      "offset": 32968646,
+      "size": 315363,
+      "type": "image"
+    },
+    {
+      "name": "11SRC1Z_LU",
+      "offset": 33284009,
+      "size": 22342,
+      "type": "image"
+    },
+    {
+      "name": "SRC1A_LU",
+      "offset": 33306351,
+      "size": 497915,
+      "type": "image"
+    },
+    {
+      "name": "SRC1B_LU",
+      "offset": 33804266,
+      "size": 497625,
+      "type": "image"
+    },
+    {
+      "name": "SRC1C_LU",
+      "offset": 34301891,
+      "size": 497929,
+      "type": "image"
+    },
+    {
+      "name": "SRC1D_LU",
+      "offset": 34799820,
+      "size": 497668,
+      "type": "image"
+    },
+    {
+      "name": "SRC1F_LU",
+      "offset": 35297488,
+      "size": 497596,
+      "type": "image"
+    },
+    {
+      "name": "SRC1G_LU",
+      "offset": 35795084,
+      "size": 497905,
+      "type": "image"
+    },
+    {
+      "name": "SRC1H_LU",
+      "offset": 36292989,
+      "size": 497645,
+      "type": "image"
+    },
+    {
+      "name": "11SRC1Z_R",
+      "offset": 36790634,
+      "size": 19617,
+      "type": "image"
+    },
+    {
+      "name": "SRC1B_R",
+      "offset": 36810251,
+      "size": 316425,
+      "type": "image"
+    },
+    {
+      "name": "SRC1C_R",
+      "offset": 37126676,
+      "size": 316423,
+      "type": "image"
+    },
+    {
+      "name": "SRC1D_R",
+      "offset": 37443099,
+      "size": 316427,
+      "type": "image"
+    },
+    {
+      "name": "SRC1F_R",
+      "offset": 37759526,
+      "size": 316427,
+      "type": "image"
+    },
+    {
+      "name": "SRC1G_R",
+      "offset": 38075953,
+      "size": 316410,
+      "type": "image"
+    },
+    {
+      "name": "SRC1H_R",
+      "offset": 38392363,
+      "size": 316417,
+      "type": "image"
+    },
+    {
+      "name": "11SRC1Z_RU",
+      "offset": 38708780,
+      "size": 22346,
+      "type": "image"
+    },
+    {
+      "name": "SRC1C_RU",
+      "offset": 38731126,
+      "size": 499633,
+      "type": "image"
+    },
+    {
+      "name": "SRC1D_RU",
+      "offset": 39230759,
+      "size": 499416,
+      "type": "image"
+    },
+    {
+      "name": "SRC1G_RU",
+      "offset": 39730175,
+      "size": 499622,
+      "type": "image"
+    },
+    {
+      "name": "SRC1H_RU",
+      "offset": 40229797,
+      "size": 499397,
+      "type": "image"
+    },
+    {
+      "name": "11SRC2Z_R",
+      "offset": 40729194,
+      "size": 19069,
+      "type": "image"
+    },
+    {
+      "name": "SRC2B_R",
+      "offset": 40748263,
+      "size": 319630,
+      "type": "image"
+    },
+    {
+      "name": "SRC2D_R",
+      "offset": 41067893,
+      "size": 319632,
+      "type": "image"
+    },
+    {
+      "name": "11SRC2Z_RU",
+      "offset": 41387525,
+      "size": 21687,
+      "type": "image"
+    },
+    {
+      "name": "SRC2B_RU",
+      "offset": 41409212,
+      "size": 517599,
+      "type": "image"
+    },
+    {
+      "name": "11SRD0Z_L",
+      "offset": 41926811,
+      "size": 20437,
+      "type": "image"
+    },
+    {
+      "name": "SRD0C_L",
+      "offset": 41947248,
+      "size": 281124,
+      "type": "image"
+    },
+    {
+      "name": "SRD0F_L",
+      "offset": 42228372,
+      "size": 281099,
+      "type": "image"
+    },
+    {
+      "name": "11SRD0Z_R",
+      "offset": 42509471,
+      "size": 20437,
+      "type": "image"
+    },
+    {
+      "name": "SRD0G_R",
+      "offset": 42529908,
+      "size": 281024,
+      "type": "image"
+    },
+    {
+      "name": "11SRD1Z_L",
+      "offset": 42810932,
+      "size": 20266,
+      "type": "image"
+    },
+    {
+      "name": "SRD1A_L",
+      "offset": 42831198,
+      "size": 326831,
+      "type": "image"
+    },
+    {
+      "name": "SRD1C_L",
+      "offset": 43158029,
+      "size": 326893,
+      "type": "image"
+    },
+    {
+      "name": "SRD1F_L",
+      "offset": 43484922,
+      "size": 326866,
+      "type": "image"
+    },
+    {
+      "name": "SRD1G_L",
+      "offset": 43811788,
+      "size": 326886,
+      "type": "image"
+    },
+    {
+      "name": "11SRD1Z_LU",
+      "offset": 44138674,
+      "size": 23521,
+      "type": "image"
+    },
+    {
+      "name": "SRD1A_LU",
+      "offset": 44162195,
+      "size": 516989,
+      "type": "image"
+    },
+    {
+      "name": "SRD1B_LU",
+      "offset": 44679184,
+      "size": 516703,
+      "type": "image"
+    },
+    {
+      "name": "SRD1C_LU",
+      "offset": 45195887,
+      "size": 516972,
+      "type": "image"
+    },
+    {
+      "name": "SRD1F_LU",
+      "offset": 45712859,
+      "size": 516690,
+      "type": "image"
+    },
+    {
+      "name": "11SRD1Z_R",
+      "offset": 46229549,
+      "size": 20267,
+      "type": "image"
+    },
+    {
+      "name": "SRD1A_R",
+      "offset": 46249816,
+      "size": 328537,
+      "type": "image"
+    },
+    {
+      "name": "SRD1B_R",
+      "offset": 46578353,
+      "size": 328581,
+      "type": "image"
+    },
+    {
+      "name": "SRD1C_R",
+      "offset": 46906934,
+      "size": 328575,
+      "type": "image"
+    },
+    {
+      "name": "SRD1D_R",
+      "offset": 47235509,
+      "size": 328576,
+      "type": "image"
+    },
+    {
+      "name": "SRD1G_R",
+      "offset": 47564085,
+      "size": 328562,
+      "type": "image"
+    },
+    {
+      "name": "SRD1H_R",
+      "offset": 47892647,
+      "size": 328566,
+      "type": "image"
+    },
+    {
+      "name": "11SRD1Z_RU",
+      "offset": 48221213,
+      "size": 23525,
+      "type": "image"
+    },
+    {
+      "name": "SRD1B_RU",
+      "offset": 48244738,
+      "size": 520089,
+      "type": "image"
+    },
+    {
+      "name": "SRD1C_RU",
+      "offset": 48764827,
+      "size": 520264,
+      "type": "image"
+    },
+    {
+      "name": "SRD1G_RU",
+      "offset": 49285091,
+      "size": 520265,
+      "type": "image"
+    },
+    {
+      "name": "SRD1H_RU",
+      "offset": 49805356,
+      "size": 520028,
+      "type": "image"
+    },
+    {
+      "name": "11SSA1Z",
+      "offset": 50325384,
+      "size": 12626,
+      "type": "image"
+    },
+    {
+      "name": "SSA1A",
+      "offset": 50338010,
+      "size": 331230,
+      "type": "image"
+    },
+    {
+      "name": "SSA1B",
+      "offset": 50669240,
+      "size": 330867,
+      "type": "image"
+    },
+    {
+      "name": "SSA1C",
+      "offset": 51000107,
+      "size": 331493,
+      "type": "image"
+    },
+    {
+      "name": "11SSB1Z",
+      "offset": 51331600,
+      "size": 11152,
+      "type": "image"
+    },
+    {
+      "name": "SSB1A",
+      "offset": 51342752,
+      "size": 323267,
+      "type": "image"
+    },
+    {
+      "name": "11WAKU_SM",
+      "offset": 51666019,
+      "size": 1520,
+      "type": "image"
+    },
+    {
+      "name": "WAKU_S",
+      "offset": 51667539,
+      "size": 7313,
+      "type": "image"
+    },
+    {
+      "name": "11WAKU00M",
+      "offset": 51674852,
+      "size": 2164,
+      "type": "image"
+    },
+    {
+      "name": "WAKU00",
+      "offset": 51677016,
+      "size": 21081,
+      "type": "image"
+    },
+    {
+      "name": "WAKU01",
+      "offset": 51698097,
+      "size": 21081,
+      "type": "image"
+    },
+    {
+      "name": "WAKU10",
+      "offset": 51719178,
+      "size": 21081,
+      "type": "image"
+    },
+    {
+      "name": "WAKU11",
+      "offset": 51740259,
+      "size": 21081,
+      "type": "image"
+    },
+    {
+      "name": "11WAKU_KBM",
+      "offset": 51761340,
+      "size": 1457,
+      "type": "image"
+    },
+    {
+      "name": "WAKU_KB",
+      "offset": 51762797,
+      "size": 274,
+      "type": "image"
+    },
+    {
+      "name": "11RC_MENU1AM",
+      "offset": 51763071,
+      "size": 1829,
+      "type": "image"
+    },
+    {
+      "name": "RC_MENU1A",
+      "offset": 51764900,
+      "size": 34542,
+      "type": "image"
+    },
+    {
+      "name": "RC_MENU1B",
+      "offset": 51799442,
+      "size": 34562,
+      "type": "image"
+    },
+    {
+      "name": "11NAMEM",
+      "offset": 51834004,
+      "size": 11223,
+      "type": "image"
+    },
+    {
+      "name": "NAME",
+      "offset": 51845227,
+      "size": 174293,
+      "type": "image"
+    },
+    {
+      "name": "11CURSORM",
+      "offset": 52019520,
+      "size": 1524,
+      "type": "image"
+    },
+    {
+      "name": "CURSOR",
+      "offset": 52021044,
+      "size": 245,
+      "type": "image"
+    },
+    {
+      "name": "11MENUCGMBM",
+      "offset": 52021289,
+      "size": 1490,
+      "type": "image"
+    },
+    {
+      "name": "MENUCGMB",
+      "offset": 52022779,
+      "size": 598,
+      "type": "image"
+    },
+    {
+      "name": "11WAKU_KBM",
+      "offset": 52023377,
+      "size": 1457,
+      "type": "image"
+    },
+    {
+      "name": "WAKU_KB",
+      "offset": 52024834,
+      "size": 274,
+      "type": "image"
+    },
+    {
+      "name": "11MENUSYS1BM",
+      "offset": 52025108,
+      "size": 17548,
+      "type": "image"
+    },
+    {
+      "name": "MENUSYS1B1",
+      "offset": 52042656,
+      "size": 46121,
+      "type": "image"
+    },
+    {
+      "name": "MENUSYS1B2",
+      "offset": 52088777,
+      "size": 62158,
+      "type": "image"
+    },
+    {
+      "name": "11MENUSYS2BM",
+      "offset": 52150935,
+      "size": 17548,
+      "type": "image"
+    },
+    {
+      "name": "MENUSYS2B1",
+      "offset": 52168483,
+      "size": 46121,
+      "type": "image"
+    },
+    {
+      "name": "MENUSYS2B2",
+      "offset": 52214604,
+      "size": 62158,
+      "type": "image"
+    },
+    {
+      "name": "11NUMBERM",
+      "offset": 52276762,
+      "size": 2736,
+      "type": "image"
+    },
+    {
+      "name": "NUMBER",
+      "offset": 52279498,
+      "size": 1562,
+      "type": "image"
+    },
+    {
+      "name": "11NUMBERM",
+      "offset": 52281060,
+      "size": 2736,
+      "type": "image"
+    },
+    {
+      "name": "NUMBER",
+      "offset": 52283796,
+      "size": 1562,
+      "type": "image"
+    },
+    {
+      "name": "11FACE01M",
+      "offset": 52285358,
+      "size": 2415,
+      "type": "image"
+    },
+    {
+      "name": "FACE01",
+      "offset": 52287773,
+      "size": 12965,
+      "type": "image"
+    },
+    {
+      "name": "11FACE02M",
+      "offset": 52300738,
+      "size": 2620,
+      "type": "image"
+    },
+    {
+      "name": "FACE02",
+      "offset": 52303358,
+      "size": 14860,
+      "type": "image"
+    },
+    {
+      "name": "11FACE03M",
+      "offset": 52318218,
+      "size": 2431,
+      "type": "image"
+    },
+    {
+      "name": "FACE03",
+      "offset": 52320649,
+      "size": 16757,
+      "type": "image"
+    },
+    {
+      "name": "11FACE04M",
+      "offset": 52337406,
+      "size": 2162,
+      "type": "image"
+    },
+    {
+      "name": "FACE04",
+      "offset": 52339568,
+      "size": 4419,
+      "type": "image"
+    },
+    {
+      "name": "11FACE05M",
+      "offset": 52343987,
+      "size": 2193,
+      "type": "image"
+    },
+    {
+      "name": "FACE05",
+      "offset": 52346180,
+      "size": 4851,
+      "type": "image"
+    },
+    {
+      "name": "11DATEBM",
+      "offset": 52351031,
+      "size": 2783,
+      "type": "image"
+    },
+    {
+      "name": "DATEB",
+      "offset": 52353814,
+      "size": 14064,
+      "type": "image"
+    },
+    {
+      "name": "11MARK01M",
+      "offset": 52367878,
+      "size": 1694,
+      "type": "image"
+    },
+    {
+      "name": "MARK01",
+      "offset": 52369572,
+      "size": 2401,
+      "type": "image"
+    },
+    {
+      "name": "11MARK02M",
+      "offset": 52371973,
+      "size": 1553,
+      "type": "image"
+    },
+    {
+      "name": "MARK02",
+      "offset": 52373526,
+      "size": 1449,
+      "type": "image"
+    },
+    {
+      "name": "11SRSTF_M",
+      "offset": 52374975,
+      "size": 6144,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF0",
+      "offset": 52381119,
+      "size": 20057,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF1",
+      "offset": 52401176,
+      "size": 26095,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF2",
+      "offset": 52427271,
+      "size": 47037,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF3",
+      "offset": 52474308,
+      "size": 30973,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF4",
+      "offset": 52505281,
+      "size": 34467,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF5",
+      "offset": 52539748,
+      "size": 44783,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF6",
+      "offset": 52584531,
+      "size": 35019,
+      "type": "image"
+    },
+    {
+      "name": "SRSTF7",
+      "offset": 52619550,
+      "size": 34625,
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "_comment": "Representative Japanese SFX cases for the shared RU and EN proofreading profiles.",
+  "ru": [
+    {
+      "id": "door-punctuation",
+      "source": "――ガチャ…",
+      "input": "――Гача…",
+      "expected": "――Клац…"
+    },
+    {
+      "id": "bell",
+      "source": "…チリリン",
+      "input": "…Чиририн",
+      "expected": "…Дзинь-дзинь"
+    },
+    {
+      "id": "knock-quotes",
+      "source": "「コンコン」",
+      "input": "«Кон-кон»",
+      "expected": "«Тук-тук»"
+    },
+    {
+      "id": "wet-sounds",
+      "source": "「ちゅぱ、じゅる、ぴちゃ、くちゅ」",
+      "input": "«Чупа, Жур, Пича, Глюк»",
+      "expected": "«чмок, хлюп, чмок, хлюп»"
+    },
+    {
+      "id": "slam-keeps-punctuation",
+      "source": "…バターンッ！",
+      "input": "…Ба-тан!",
+      "expected": "…Хлоп!"
+    },
+    {
+      "id": "paired-spurt",
+      "source": "――ビュッ！ドピュッ！！",
+      "input": "――Бю! Дпып!!",
+      "expected": "――Пшик! Брызг!!"
+    },
+    {
+      "id": "repeated-claps",
+      "source": "パチ　パチ　パチ　パチ",
+      "input": "Па-Па-Па-Па!",
+      "expected": "Хлоп-хлоп-хлоп-хлоп!"
+    },
+    {
+      "id": "camera-repetition",
+      "source": "パシャ　パシャパシャ　パシャ",
+      "input": "Паша, паша-паша, паша",
+      "expected": "Щёлк, щёлк-щёлк, щёлк"
+    },
+    {
+      "id": "bang",
+      "source": "――ターンッ！",
+      "input": "――Поворот!",
+      "expected": "――Бах!"
+    },
+    {
+      "id": "liquid-repetition",
+      "source": "ジョロ……ジョロッ、ジョオオオオオオオオッ！！",
+      "input": "Чур… чурр, чурррр!!",
+      "expected": "Жур… жур-р, жур-р-р-р!!"
+    },
+    {
+      "id": "foreign-small-tsu-phonetics",
+      "source": "…ッ…ッ…っ…",
+      "input": "…Ć… Ć… äh…",
+      "expected": "…нгх… нгх… нгх…"
+    },
+    {
+      "id": "anchored-source-guard",
+      "source": "ドアをガチャリと開けた。",
+      "input": "Он сказал: «Гача».",
+      "expected": "Он сказал: «Гача»."
+    }
+  ],
+  "en": [
+    {
+      "id": "door-punctuation",
+      "source": "――ガチャ…",
+      "input": "――Gacha…",
+      "expected": "――Click…"
+    },
+    {
+      "id": "bell",
+      "source": "…チリリン",
+      "input": "…Chiririn",
+      "expected": "…Ding-ding"
+    },
+    {
+      "id": "knock-quotes",
+      "source": "「コンコン」",
+      "input": "\"Kon-kon\"",
+      "expected": "\"Knock-knock\""
+    },
+    {
+      "id": "wet-sounds",
+      "source": "「ちゅぱ、じゅぱ、ぴちゅ、くちゅ」",
+      "input": "Chu-pa, ju-pa, pichu, kuchu!",
+      "expected": "slurp, slurp, smack, squelch!"
+    },
+    {
+      "id": "hyphenated-transliteration-cleanup",
+      "source": "ちゅぱ、ちゅぷ、ちゅる",
+      "input": "ch-chup, chu-pu, slurp-pa",
+      "expected": "slurp, slurp, slurp"
+    },
+    {
+      "id": "juru-transliteration-cleanup",
+      "source": "じゅる……ちゅるっ……",
+      "input": "Juru... Churu...",
+      "expected": "slurp... slurp..."
+    },
+    {
+      "id": "slam-keeps-punctuation",
+      "source": "…バターンッ！",
+      "input": "…Thud!",
+      "expected": "…Slam!"
+    },
+    {
+      "id": "yank",
+      "source": "グイッ！",
+      "input": "Whoosh!",
+      "expected": "Yank!"
+    },
+    {
+      "id": "penetration-sound",
+      "source": "ズブリッ！",
+      "input": "Thwack!",
+      "expected": "Squelch!"
+    },
+    {
+      "id": "paired-spurt",
+      "source": "――ビュッ！ドピュッ！！",
+      "input": "――Byu! Dopyu!!",
+      "expected": "――Spurt! Splatter!!"
+    },
+    {
+      "id": "repeated-claps",
+      "source": "パチ　パチ　パチ　パチ",
+      "input": "Pa-Pa-Pa-Pa!",
+      "expected": "Clap-clap-clap-clap!"
+    },
+    {
+      "id": "camera-transliteration",
+      "source": "パシャ　パシャパシャ　パシャ",
+      "input": "Pasha, pasha-pasha, pasha",
+      "expected": "Click, click-click, click"
+    },
+    {
+      "id": "camera-overcount",
+      "source": "パシャ　パシャパシャ　パシャ",
+      "input": "Click, click-click-click, click",
+      "expected": "Click, click-click, click"
+    },
+    {
+      "id": "bang",
+      "source": "――ターンッ！",
+      "input": "――Turn!",
+      "expected": "――Bang!"
+    },
+    {
+      "id": "liquid-repetition",
+      "source": "ジョロ……ジョロッ、ジョオオオオオオオオッ！！",
+      "input": "Gurgle… gurgle, gurgleeeeeeeee!!",
+      "expected": "Gurgle… gurgle, gurgle!!"
+    },
+    {
+      "id": "isolated-small-tsu-phonetics",
+      "source": "あぁ…いっぱい…ッ…ッ……",
+      "input": "Aaah... so full... ッ... ッ...",
+      "expected": "Aaah... so full... ngh... ngh..."
+    },
+    {
+      "id": "anchored-source-guard",
+      "source": "ターンッと振り返った。",
+      "input": "Turn around.",
+      "expected": "Turn around."
+    }
+  ]
+}

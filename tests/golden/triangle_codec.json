@@ -1,0 +1,102 @@
+{
+  "description": "Command-level contract for the GARbro-backed C# Triangle archive tool.",
+  "sources": {
+    "triangle_fixture.cgf": {
+      "bytes": 1742,
+      "sha256": "bffeb2d080186295daf183a3f46aa9e9facf80bbeb3a7f6ff36a012c893a5535"
+    },
+    "DUMMY.IAF": {
+      "bytes": 115,
+      "sha256": "d02ca74d34fce5ca73ede230a8241fa2c9ea8aca3de79a26a518416cd0b20a0e"
+    },
+    "SDUMMY.IAF": {
+      "bytes": 115,
+      "sha256": "a5838dd7a845bd38f9b6c06fd38c28002353a135096c18b511b5c19c633300e6"
+    },
+    "MASK.raw": {
+      "bytes": 1490,
+      "sha256": "3879b78351878d48967bbe88cdbf4ea214e364b9f0143747cc0267b225997ddb"
+    },
+    "NATIVE.IAF": {
+      "bytes": 4580,
+      "sha256": "72e4611f9c105dd66b9539c51b13f8cd70b166382003f6a9e655246c6da939f0"
+    }
+  },
+  "extract_manifest": {
+    "format": "delta-cgf",
+    "entries": [
+      {
+        "name": "DUMMY",
+        "file": "DUMMY.iaf",
+        "mode": "stored",
+        "flagged": false,
+        "type": "image",
+        "preview": "DUMMY.png",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "SDUMMY",
+        "file": "SDUMMY.iaf",
+        "mode": "lzss",
+        "flagged": false,
+        "type": "image",
+        "preview": "SDUMMY.png",
+        "width": 4,
+        "height": 3
+      },
+      {
+        "name": "MASK",
+        "file": "MASK.iaf",
+        "mode": "raw",
+        "flagged": true,
+        "type": "image",
+        "preview": "MASK.png",
+        "width": 16,
+        "height": 16
+      }
+    ]
+  },
+  "extracted": {
+    "DUMMY.iaf": {
+      "bytes": 102,
+      "sha256": "59fed3416c13d17b53791b0f1565d0c299af4edfef01c3e6a60cc2a8740dc0a6"
+    },
+    "SDUMMY.iaf": {
+      "bytes": 58,
+      "sha256": "d897edc40c948222bff16f77197d774a3978099241dc21b46ab09e578502e139"
+    },
+    "MASK.iaf": {
+      "bytes": 1478,
+      "sha256": "ae1df5c9b5f78fb4eb6d05db07787980f0320ca7f71386c2679550d53eb4feab"
+    }
+  },
+  "previews": {
+    "DUMMY.png": {
+      "width": 4,
+      "height": 3,
+      "depth": 24,
+      "pixels": "ac45570c2e8f9ac9c4d5fee7d295ada1af15a735a5c78e452350a6363170143b"
+    },
+    "SDUMMY.png": {
+      "width": 4,
+      "height": 3,
+      "depth": 24,
+      "pixels": "8c0ac2ba85dc02bf17b9e80abb10f3147ad33f200d5e864eba668342780e2f45"
+    },
+    "MASK.png": {
+      "width": 16,
+      "height": 16,
+      "depth": 8,
+      "pixels": "3170cf33c0f326ec29dde7c8fa65d6df2d7f364a6489c393a22bcf821e461143"
+    }
+  },
+  "native_iaf": {
+    "bmp_bytes": 303318,
+    "bmp_sha256": "872210a7f9f27d7f9c90453cf80503593f01fa934e9639d531567844b2113d27",
+    "width": 432,
+    "height": 234,
+    "depth": 24,
+    "pixels": "ef4d75ec5a401bc4790c1e4160de787c535c47fc338ba0f1280be70c1f16151d"
+  }
+}

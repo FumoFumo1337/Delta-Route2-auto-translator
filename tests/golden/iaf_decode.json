@@ -1,0 +1,35 @@
+{
+  "description": "DeltaResourceTool IAF decoding over checked-in samples.",
+  "files": {
+    "DUMMY.IAF": {
+      "source_bytes": 115,
+      "source_sha256": "d02ca74d34fce5ca73ede230a8241fa2c9ea8aca3de79a26a518416cd0b20a0e",
+      "bmp_bytes": 90,
+      "bmp_sha256": "514d0d60cde40c297f581283a0ea95d796a01c6190ca22b8444136e05202a728",
+      "width": 4,
+      "height": 3,
+      "depth": 24,
+      "pixels": "ac45570c2e8f9ac9c4d5fee7d295ada1af15a735a5c78e452350a6363170143b"
+    },
+    "SDUMMY.IAF": {
+      "source_bytes": 115,
+      "source_sha256": "a5838dd7a845bd38f9b6c06fd38c28002353a135096c18b511b5c19c633300e6",
+      "bmp_bytes": 90,
+      "bmp_sha256": "a6abd68017eb3234df1e5ffccd9c633c1fabb2930fc435370cca33edd5993e04",
+      "width": 4,
+      "height": 3,
+      "depth": 24,
+      "pixels": "8c0ac2ba85dc02bf17b9e80abb10f3147ad33f200d5e864eba668342780e2f45"
+    },
+    "NATIVE.IAF": {
+      "source_bytes": 4580,
+      "source_sha256": "72e4611f9c105dd66b9539c51b13f8cd70b166382003f6a9e655246c6da939f0",
+      "bmp_bytes": 303318,
+      "bmp_sha256": "872210a7f9f27d7f9c90453cf80503593f01fa934e9639d531567844b2113d27",
+      "width": 432,
+      "height": 234,
+      "depth": 24,
+      "pixels": "ef4d75ec5a401bc4790c1e4160de787c535c47fc338ba0f1280be70c1f16151d"
+    }
+  }
+}

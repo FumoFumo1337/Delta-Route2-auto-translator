@@ -1,0 +1,24 @@
+{
+  "_comment": "Per-game English proofreading rules. Common machine-translation cleanup is loaded separately from profiles/proofread_common.en.json.",
+  "_language": "EN",
+  "replacements": {},
+  "regex_replacements": [],
+  "source_rules": [],
+  "rows": {},
+  "sources": {},
+  "dialogs": {},
+  "_examples": {
+    "replacements": {
+      "game-specific translated fragment": "preferred game-specific fragment"
+    },
+    "dialogs": {
+      "D00001": [
+        "Complete replacement for line 1 of this dialog window",
+        "Complete replacement for line 2 of this dialog window"
+      ]
+    },
+    "sources": {
+      "Exact source line": "Complete replacement for its translated cell"
+    }
+  }
+}

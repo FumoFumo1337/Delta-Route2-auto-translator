@@ -1,0 +1,6 @@
+*.pyc
+work/**
+bin/**
+work.zip
+__pycache__/
+tests/.tmp/

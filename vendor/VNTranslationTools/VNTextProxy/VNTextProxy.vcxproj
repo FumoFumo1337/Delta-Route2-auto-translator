@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cbbf2c50-0662-4442-ad10-881d8e95dda3}</ProjectGuid>
+    <RootNamespace>TextProportionalizer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>winmm</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>winmm</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;TEXTPROPORTIONALIZER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>.;..\..\..\runtime_proxy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <AdditionalDependencies>ddraw.lib;dwrite.lib;d3d11.lib;dsound.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;TEXTPROPORTIONALIZER_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>.;..\..\..\runtime_proxy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
+      <AdditionalDependencies>ddraw.lib;dwrite.lib;d3d11.lib;dsound.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CompilerSpecific\CompilerHelper.h" />
+    <ClInclude Include="CompilerSpecific\Enumerations.h" />
+    <ClInclude Include="CompilerSpecific\Rtti\BorlandTypeDescriptor.h" />
+    <ClInclude Include="CompilerSpecific\Rtti\MsvcRttiCompleteObjectLocator.h" />
+    <ClInclude Include="D2DProportionalizer.h" />
+    <ClInclude Include="GdiProportionalizer.h" />
+    <ClInclude Include="ImportHooker.h" />
+    <ClInclude Include="LocaleEmulator.h" />
+    <ClInclude Include="Patches\BabelPatch.h" />
+    <ClInclude Include="Patches\EnginePatches.h" />
+    <ClInclude Include="PE\PE.h" />
+    <ClInclude Include="Proxy.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Proportionalizer.h" />
+    <ClInclude Include="SjisTunnelEncoding.h" />
+    <ClInclude Include="ImeListener.h" />
+    <ClInclude Include="Subtitles\SubtitleDocument.h" />
+    <ClInclude Include="Subtitles\SubtitleLine.h" />
+    <ClInclude Include="Subtitles\SubtitleRenderer.h" />
+    <ClInclude Include="Util\ComPtr.h" />
+    <ClInclude Include="Util\membuf.h" />
+    <ClInclude Include="Util\MemoryUnprotector.h" />
+    <ClInclude Include="Util\MemoryUtil.h" />
+    <ClInclude Include="Util\Path.h" />
+    <ClInclude Include="Util\StringUtil.h" />
+    <ClInclude Include="Win32AToWAdapter.h" />
+    <ClInclude Include="..\..\..\runtime_proxy\DeltaOverlay.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CompilerSpecific\CompilerHelper.cpp" />
+    <ClCompile Include="D2DProportionalizer.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GdiProportionalizer.cpp" />
+    <ClCompile Include="ImportHooker.cpp" />
+    <ClCompile Include="LocaleEmulator.cpp" />
+    <ClCompile Include="Patches\BabelPatch.cpp" />
+    <ClCompile Include="Patches\EnginePatches.cpp" />
+    <ClCompile Include="PE\PE.cpp" />
+    <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Proportionalizer.cpp" />
+    <ClCompile Include="SjisTunnelEncoding.cpp" />
+    <ClCompile Include="ImeListener.cpp" />
+    <ClCompile Include="Subtitles\SubtitleDocument.cpp" />
+    <ClCompile Include="Subtitles\SubtitleLine.cpp" />
+    <ClCompile Include="Subtitles\SubtitleRenderer.cpp" />
+    <ClCompile Include="Util\MemoryUnprotector.cpp" />
+    <ClCompile Include="Util\MemoryUtil.cpp" />
+    <ClCompile Include="Util\Path.cpp" />
+    <ClCompile Include="Util\StringUtil.cpp" />
+    <ClCompile Include="Win32AToWAdapter.cpp" />
+    <ClCompile Include="..\..\..\runtime_proxy\DeltaOverlay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\external\Detours\Detours.vcxproj">
+      <Project>{962a7719-2381-40d0-8214-377689f9429a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
